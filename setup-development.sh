@@ -37,5 +37,5 @@ read -p 'Enter email for ssh key: ' email
 ssh-keygen -t rsa -b 4096 -C $email
 echo "[+] Generated SSH key."
 
-# echo '[!] Copy the public key to GitHub settings.'
+echo '[!] Copy the public key to GitHub settings.'
 cat ~/.ssh/id_rsa.pub
