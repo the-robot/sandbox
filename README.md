@@ -4,6 +4,9 @@ By default Codespaces only allow you to edit the repository. So I made this to o
 
 > Kind of a loophole, let's say you do not want to use an organisation credit to open codespace. You can instead spin up general purpose machine, and clone the project you want to work on and continue with your life.
 
+By default all directories visible by the editor is at `/workspaces/sandbox`. So after you spin-up a server, delete `.git` of Sandbox repository and you are good to go.
+
+<br/>
 
 ### Why is Zerotier installed?
 
