@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# start zerotier
+sudo service zerotier-one start
+sudo service zerotier-one status
+sudo zerotier-cli status

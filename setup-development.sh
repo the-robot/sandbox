@@ -37,5 +37,9 @@ read -p 'Enter email for ssh key: ' email
 ssh-keygen -t rsa -b 4096 -C $email
 echo "[+] Generated SSH key."
 
-echo '[!] Copy the public key to GitHub settings.'
+echo "[!] Copy the public key to GitHub settings."
 cat ~/.ssh/id_rsa.pub
+
+# copy custom scripts to ~/.local/bin
+cp ./scripts/init-sandbox ~/.local/bin
+echo "[+] When you restart the codespace, run `init-sandbox` to run services like Zerotier."
