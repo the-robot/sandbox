@@ -7,7 +7,7 @@ sudo apt autoremove -y -qq
 echo "[+] Updated system."
 
 # install tmux
-sudo apt install tmux
+sudo apt install tmux -y -qq
 curl https://raw.githubusercontent.com/the-robot/dots/master/terminals/tmux/.tmux.conf -s -o ~/.tmux.conf
 echo "[+] Tmux installed and configured."
 
