@@ -14,6 +14,6 @@ Well, one of the project I am working with does not work well with built-in port
 
 </br>
 
-## Todo
+## Kali tools setup
 
-- [ ] Write script to setup security tools for basic HackTheBox machine.
+This script is to setup Kali linux tools on the Ubuntu machine that codespace is providing. Only run the script after you installed Kali linux repositories via [Katoolin](https://github.com/LionSec/katoolin).
