@@ -6,6 +6,7 @@ echo "https://github.com/LionSec/katoolin#installation"
 # install kali tools
 sudo apt install exploitdb wpscan sqlmap hashcat seclists nmap hydra tcpdump netcat wordlists steghide impacket-scripts dirbuster dirb ffuf wfuzz gobuster feroxbuster sublist3r traceroute whois cewl recon-ng mimikatz hash-identifier dsniff dnsmap dnsrecon crackmapexec dirsearch dnsenum sslscan fcrackzip python3-impacket -y -qq
 sudo apt autoremove
+gem install wpscan
 echo "[+] Installed Kail tools."
 
 # install metasploit
